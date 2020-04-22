@@ -1,0 +1,28 @@
+.menu-bg {
+  background-color: $first-color;
+  color: $color-light;
+}
+
+.menu-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $gap-small 0;
+}
+
+.logo-blog {
+  font-size: em(36);
+  font-weight: 700;
+  padding-left: $gap-smaller;
+}
+
+.nav-blog ul {
+  display: flex;
+  li a {
+    font-size: em(20);
+    padding: 0 $gap-smaller;
+    &:hover {
+      color: $first-color-dark;
+    }
+  }
+}

@@ -1,9 +1,10 @@
 .info-higher-bg {
     background-color: $first-color-dark;
+    color: $color-light;
 }
 .info-higher {
     display: flex;
     justify-content: space-between;
     padding: $gap-smaller;
-    color: white;
+    line-height: 25px;
 }

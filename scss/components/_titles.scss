@@ -1,0 +1,11 @@
+.title {
+    font-size: em(48);
+    line-height: em(48,48);
+    font-weight: 700;
+}
+
+.title-blog {
+    @extend .title;
+    color: $color-dark;
+    padding: $gap-larger $gap-smaller;
+}

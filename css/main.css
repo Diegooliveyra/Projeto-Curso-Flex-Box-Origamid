@@ -76,6 +76,7 @@ a {
 
 .info-higher-bg {
   background-color: #122AB2;
+  color: #FFFFFF;
 }
 
 .info-higher {
@@ -85,7 +86,61 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 12px;
-  color: white;
+  padding: 10px;
+  line-height: 25px;
+}
+
+.menu-bg {
+  background-color: #2C70FF;
+  color: #FFFFFF;
+}
+
+.menu-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.logo-blog {
+  font-size: 2.25em;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.nav-blog ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-blog ul li a {
+  font-size: 1.25em;
+  padding: 0 10px;
+}
+
+.nav-blog ul li a:hover {
+  color: #122AB2;
+}
+
+.title, .title-blog {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+.title-blog {
+  color: #222222;
+  padding: 60px 10px;
+}
+
+.about-blog {
+  border-top: 2px solid #2C70FF;
 }
 /*# sourceMappingURL=main.css.map */
