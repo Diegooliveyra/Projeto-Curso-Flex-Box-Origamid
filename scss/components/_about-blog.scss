@@ -1,3 +1,23 @@
 .about-blog {
-    border-top: 2px solid $first-color;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid $first-color;
+  border-bottom: 2px solid $first-color;
+  padding: $gap-larger 0;
+}
+
+.about-info {
+  margin: 0 $gap-smaller;
+  flex: 2 1 300px;
+  p {
+    font-size: em(20);
+    line-height: em(28, 20);
+    color: $second-color-dark;
+    margin-bottom: $gap-small;
+  }
+}
+
+.about-img {
+  flex: 1 1 160px;
+  margin: 0 $gap-smaller;
 }

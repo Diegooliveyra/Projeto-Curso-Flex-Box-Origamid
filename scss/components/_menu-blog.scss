@@ -7,20 +7,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: $gap-small 0;
 }
 
 .logo-blog {
   font-size: em(36);
   font-weight: 700;
-  padding-left: $gap-smaller;
+  margin: 0 $gap-smaller;
 }
 
 .nav-blog ul {
   display: flex;
+  flex-wrap: wrap;
   li a {
     font-size: em(20);
-    padding: 0 $gap-smaller;
+    display: block;
+    padding: $gap-smaller;
     &:hover {
       color: $first-color-dark;
     }

@@ -1,0 +1,20 @@
+.products-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-purple {
+    border-top: 8px solid $third-color;
+    margin: 0 $gap-smaller;
+    background-color: $second-color-ligth;
+}
+.item-pink {
+    border-top: 8px solid $fourth-color;
+    margin: 0 $gap-smaller;
+}
+
+.item-blue {
+    border-top: 8px solid $fifth-color;
+    margin: 0 $gap-smaller;
+}

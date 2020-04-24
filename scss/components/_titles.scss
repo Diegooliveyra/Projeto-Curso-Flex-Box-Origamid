@@ -6,6 +6,23 @@
 
 .title-blog {
     @extend .title;
-    color: $color-dark;
     padding: $gap-larger $gap-smaller;
+}
+
+.title-about {
+    @extend .title;
+    padding-top: $gap-smaller;
+    padding-bottom: $gap-medium;
+}
+
+.title-products {
+    @extend .title;
+    padding: $gap-larger $gap-smaller;
+}
+
+.subtitle-blog {
+    font-size: em(48);
+    font-weight: 700;
+    padding: $gap-larger $gap-smaller;
+    color: $second-color;
 }
