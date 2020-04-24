@@ -1,20 +1,30 @@
+.products-blog {
+  margin-bottom: $gap-larger;
+}
+
 .products-container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-.item-purple {
-    border-top: 8px solid $third-color;
-    margin: 0 $gap-smaller;
-    background-color: $second-color-ligth;
-}
-.item-pink {
-    border-top: 8px solid $fourth-color;
-    margin: 0 $gap-smaller;
+.item-products {
+  margin: 0 $gap-smaller;
+  background-color: $second-color-ligth;
+  flex: 1 1 175px;
+  @include device(mobile) {
+    margin-bottom: $gap-medium;
+  }
 }
 
-.item-blue {
-    border-top: 8px solid $fifth-color;
-    margin: 0 $gap-smaller;
+.purple {
+  border-top: 8px solid $third-color;
+}
+.pink {
+  border-top: 8px solid $fourth-color;
+}
+
+.blue {
+  border-top: 8px solid $fifth-color;
 }
