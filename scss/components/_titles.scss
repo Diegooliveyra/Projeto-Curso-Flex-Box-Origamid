@@ -20,9 +20,19 @@
     padding: $gap-xlarger $gap-smaller;
 }
 
-.subtitle-blog {
+.subtitle {
     font-size: em(48);
     font-weight: 700;
-    padding: $gap-xlarger $gap-smaller;
     color: $second-color;
+}
+
+.sub-blog{
+    @extend .subtitle;
+    padding: $gap-xlarger $gap-smaller;
+}
+
+.sub-price {
+    @extend .subtitle;
+    text-align: center;
+    margin-top: $gap-small;
 }
