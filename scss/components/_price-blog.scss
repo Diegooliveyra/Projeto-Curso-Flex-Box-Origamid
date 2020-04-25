@@ -53,4 +53,12 @@
   padding: $gap-small;
   margin: $gap-small;
   min-width: 260px;
+  @include device (mobile) {
+    &:nth-child(3) {
+      order: -2;
+    }
+    &:nth-child(2) {
+      order: -1;
+    }
+  }
 }

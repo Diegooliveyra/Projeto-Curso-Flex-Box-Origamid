@@ -1,0 +1,16 @@
+.quality-blog {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $gap-larger 0;
+}
+
+.quality-item {
+  flex: 1 1 300px;
+  margin: $gap-small $gap-smaller;
+  p {
+    font-size: em(20);
+    line-height: em(22);
+    color: $second-color-dark;
+  }
+}
+

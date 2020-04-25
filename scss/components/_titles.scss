@@ -1,38 +1,80 @@
 .title {
-    font-size: em(48);
-    line-height: em(48,48);
-    font-weight: 700;
+  font-size: em(48);
+  line-height: em(48, 48);
+  font-weight: 700;
 }
 
 .title-blog {
-    @extend .title;
-    padding: $gap-larger $gap-smaller;
+  @extend .title;
+  padding: $gap-larger $gap-smaller;
 }
 
 .title-about {
-    @extend .title;
-    padding-top: $gap-smaller;
-    padding-bottom: $gap-medium;
+  @extend .title;
+  padding-top: $gap-smaller;
+  padding-bottom: $gap-medium;
 }
 
 .title-products {
-    @extend .title;
-    padding: $gap-xlarger $gap-smaller;
+  @extend .title;
+  padding: $gap-xlarger $gap-smaller;
 }
 
 .subtitle {
-    font-size: em(48);
-    font-weight: 700;
-    color: $second-color;
+  font-size: em(48);
+  font-weight: 700;
+  color: $second-color;
 }
 
-.sub-blog{
-    @extend .subtitle;
-    padding: $gap-xlarger $gap-smaller;
+.sub-blog {
+  @extend .subtitle;
+  padding: $gap-xlarger $gap-smaller;
 }
 
 .sub-price {
-    @extend .subtitle;
-    text-align: center;
-    margin-top: $gap-small;
+  @extend .subtitle;
+  text-align: center;
+  margin-top: $gap-small;
+}
+
+.sub-quality {
+  @extend .subtitle;
+  font-size: em(36);
+  margin-bottom: $gap-small;
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: $gap-smaller;
+  }
+}
+
+.b-purple {
+  &.sub-quality {
+    &::before {
+      background-color: $third-color;
+    }
+  }
+}
+
+.b-pink {
+  &.sub-quality {
+    &::before {
+      background-color: $fourth-color;
+    }
+  }
+}
+
+.b-blue {
+  &.sub-quality {
+    &::before {
+      background-color: $fifth-color;
+    }
+  }
+}
+
+.sub-news {
+  @extend .subtitle;
+  margin-bottom: $gap-smaller;
 }

@@ -1,0 +1,9 @@
+.footer-blog {
+    padding: $gap-larger 0;
+    text-align: center;
+    background-color: $first-color;
+    p {
+        font-size: em(36);
+        color: $color-light;
+    }
+}
