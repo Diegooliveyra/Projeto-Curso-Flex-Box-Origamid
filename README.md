@@ -2,7 +2,7 @@
 
 Projeto final referente ao curso Css Flexbox do site origamid.com.
 
-##Fundamentos do Flexbox
+## Fundamentos do Flexbox
 
 * Display flex
 * Flex direction
